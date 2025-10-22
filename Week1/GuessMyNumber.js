@@ -37,7 +37,7 @@ function main() {
     } else if (guess > secret) {
       addLine(`Computeren gættede ${guess} – for højt.`);
     } else {
-      addLine(`Computeren gættede ${guess} – korrekt! 🎉`);
+      addLine(`Computeren gættede ${guess} – korrekt!`);
       addLine(`Antal forsøg: ${tries}`);
       guessBtn.disabled = true;
     }

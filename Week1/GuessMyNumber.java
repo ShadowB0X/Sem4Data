@@ -41,7 +41,7 @@ public class GuessMyNumber {
 
         } while (guess != secret);
 
-        System.out.println("Tak for spillet 👋");
+        System.out.println("Tak for spillet ");
         scanner.close();
     }
 }
